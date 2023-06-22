@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.navbar_logo h4 {
+    padding-left: 0px;
+}
+
+.navbar_menu {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.navbar_menu li {
+    padding: 8px 30px;
+}
