@@ -1,0 +1,10 @@
+.mainpage {
+    width: 500px;
+    height: 500px;
+}
+
+.left-section {
+    width: 400px;
+    float: left;
+    box-sizing: border-box;
+}

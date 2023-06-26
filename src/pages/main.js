@@ -1,6 +1,17 @@
+import StockChart from "../components/stockChart";
+import StockIndex from "../components/stockIndex";
+import StockInfo from "../components/stockInfo";
+import "../css/main.css";
+
 function Main() {
     return (<>
-        메인페이지임
+        <div className="mainpage">
+            <div className="left-section">
+                <StockChart />
+                <StockIndex />
+            </div>
+            <StockInfo />
+        </div>
     </>)
 }
 export default Main;
